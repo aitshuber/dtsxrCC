@@ -13,10 +13,10 @@
 - name: Louisiana Dept of Health
   image: /_site/assets/images/clients/LDH.png
 - name: Arbor XR
-  image: /_site/assets/images/clients/ArborXR-Logo-Dark-1.png
+  image: /assets/images/clients/ArborXR-Logo-Dark-1.png
 - name: LEDA
-  image: /_site/assets/images/clients/LAEconomicDevelopment_thumb.png
+  image: /assets/images/clients/LAEconomicDevelopment_thumb.png
 - name: WIC
-  image: /_site/assets/images/clients/logo-Wic-1.png
+  image: /assets/images/clients/logo-Wic-1.png
 - name: Freeman Group
-  image: /_site/assets/images/clients/freeman-group-logo-600.png
+  image: /assets/images/clients/freeman-group-logo-600.png
