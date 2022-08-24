@@ -14,7 +14,8 @@ keywords: >-
 layout: default
 pagename: home
 ---
-<div class="text-left bg-overlay-dark-3 py-8 d-block d-md-none" style="background:url(/assets/images/banner2.jpg) no-repeat; background-size:cover; background-position: center center;">
+ {% for item in site.data.home-video limit:1 %}
+<div class="text-left bg-overlay-dark-3 py-8 d-block d-md-none" style="background:url({{item.image}}) no-repeat; background-size:cover; background-position: center center;">
   <div class="container">
     <div class="row all-text-white">
       <div class="col-md-8 align-self-center editable">
@@ -24,6 +25,7 @@ pagename: home
     </div>
   </div>
 </div>
+{% endfor %}
 <section class="home-video d-md-block d-none">
   {% for item in site.data.home-video limit:1 %}
   <div class="background-image-holder"><img alt="image" src="{{item.image}}" class="editable" /></div>
