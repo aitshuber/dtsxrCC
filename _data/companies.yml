@@ -1,2 +1,22 @@
 - name: Meta
   image: /assets/images/clients/800px-Meta_Platforms_Inc._logo.svg.png
+- name: US Dept of Defense
+  image: /assets/images/clients/DoD-Logo.png
+- name: Shell
+  image: /assets/images/clients/Shell-logo-1.png
+- name: Exon mobile
+  image: /assets/images/clients/f6e1195509be61411db1ec236a383561.png
+- name: Virgin Hotels
+  image: /_site/assets/images/clients/virgin-hotels.png
+- name: FDA
+  image: /_site/assets/images/clients/Food_and_Drug_Administration_logo.svg.png
+- name: Louisiana Dept of Health
+  image: /_site/assets/images/clients/LDH.png
+- name: Arbor XR
+  image: /_site/assets/images/clients/ArborXR-Logo-Dark-1.png
+- name: LEDA
+  image: /_site/assets/images/clients/LAEconomicDevelopment_thumb.png
+- name: WIC
+  image: /_site/assets/images/clients/logo-Wic-1.png
+- name: Freeman Group
+  image: /_site/assets/images/clients/freeman-group-logo-600.png
