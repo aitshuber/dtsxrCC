@@ -7,9 +7,9 @@
 - name: Exon mobile
   image: /assets/images/clients/f6e1195509be61411db1ec236a383561.png
 - name: Virgin Hotels
-  image: /_site/assets/images/clients/virgin-hotels.png
+  image: /assets/images/clients/virgin-hotels.png
 - name: FDA
-  image: /_site/assets/images/clients/Food_and_Drug_Administration_logo.svg.png
+  image: /assets/images/clients/Food_and_Drug_Administration_logo.svg.png
 - name: Louisiana Dept of Health
   image: /_site/assets/images/clients/LDH.png
 - name: Arbor XR
