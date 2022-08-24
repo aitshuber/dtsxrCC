@@ -1,0 +1,111 @@
+@media only screen and (min-width: 62.85em){
+  .hero__title{
+    color: #fff;
+    margin-bottom: 16px;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    word-break: break-word;
+   font-size: 4.5rem !important;
+   line-height: 4.5rem !important;
+   font-weight: 900 !important;
+  }
+}
+ .hero__title{
+color: #fff;
+margin-bottom: 16px;
+-webkit-hyphens: manual;
+-ms-hyphens: manual;
+hyphens: manual;
+word-break: break-word;
+font-size: 3rem;
+line-height: 3.5rem;
+font-weight: 900 !important;
+}
+.hero__p{
+  color: #fff;
+  margin: 0 0 10px;
+}
+.large{
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.portfolio-title{
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
+  margin-bottom: 24px !important;
+  font-weight: 700 !important;
+  font-family: Inter,sans-serif;
+  -webkit-text-size-adjust: none;
+}
+.footer p{
+  color: #999 !important;
+}
+.sub-text{
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: #8a8a8a;
+  margin-bottom: 24px;
+}
+section.home-video {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+section.home-video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+section.home-video .container {
+  position: relative;
+  z-index: 2;
+}
+
+section.home-video .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media all and (max-width: 1024px) {
+  .videobg .background-image-holder,
+  .videobg .container {
+    opacity: 1 !important;
+  }
+  .videobg .loading-indicator {
+    display: none;
+  }
+  .videobg video {
+    display: none;
+  }
+}
+@media (pointer: coarse) and (hover: none) {
+  section.home-video {
+    background: url('/static/custom/images/banner2.jpg') black no-repeat center center scroll;
+  }
+
+  section.home-video video {
+    display: none;
+  }
+}

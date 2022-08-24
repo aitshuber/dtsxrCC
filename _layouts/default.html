@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ {% capture seo %}
+   {% seo %}
+   <meta name="keywords" content="{{page.keywords}}">
+   {% endcapture %}
+   {{seo | remove: "Jekyll"}}
+<!-- Styles -->
+{% include head.html %}
+</head>
+<body>
+	<header class="navbar header-static navbar-sticky navbar-dark bg-dark">
+	<!-- Search -->
+	<div class="top-search collapse bg-light w-100" id="search-open" data-bs-parent="#search">
+		<div class="container">
+			<div class="row position-relative">
+				<div class="col-md-8 mx-auto py-5">
+					<form>
+						<div class="input-group">
+							<input class="form-control rounded-start border-end-0 mb-0" type="text" name="search"
+								   autofocus placeholder="What are you looking for?">
+							<button type="button" class="btn btn-grad m-0">Search</button>
+						</div>
+					</form>
+					<p class="small mt-2 mb-0"><strong>e.g.</strong> VR, Government, Education </p>
+				</div>
+				<a class="position-absolute top-0 end-0 mt-3 me-3 text-end" data-bs-toggle="collapse"
+				   href="#search-open"><i class="fa fa-window-close"></i></a>
+			</div>
+		</div>
+	</div>
+	<!-- End Search -->
+	<!-- Logo Nav Start -->
+{% include nav.html %}
+</header>
+<!-- =======================
+header End-->
+
+<!-- =======================
+Main Banner -->
+
+ {{ content }}
+
+{% include footer.html %}   
+
+{% include scripts.html %}         	
+					
+</body>
+</html>

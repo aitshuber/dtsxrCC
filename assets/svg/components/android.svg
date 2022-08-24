@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 317.5 665" style="enable-background:new 0 0 317.5 665;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:none;stroke:#E7EAF3;stroke-miterlimit:10;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#F7F7F7;}
+</style>
+<path class="st0" d="M304.9,666H13.4c-7,0-12.7-5.7-12.7-12.7V13.7C0.7,6.7,6.4,1,13.4,1h291.5c7,0,12.7,5.7,12.7,12.7v639.5
+	C317.7,660.3,311.9,666,304.9,666z"/>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="19.4" y="81.3" width="280" height="500"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+		</g>
+	</g>
+	<g>
+		<rect id="iphone1" x="19.4" y="81.3" class="st2" width="280" height="500"/>
+	</g>
+</g>
+<circle class="st3" cx="159.2" cy="26.2" r="8.2"/>
+</svg>
