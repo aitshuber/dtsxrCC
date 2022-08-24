@@ -25,11 +25,12 @@ pagename: home
   </div>
 </div>
 <section class="home-video d-md-block d-none">
-
-  <div class="background-image-holder"><img alt="image" src="/assets/images/banner2.jpg" class="editable" /></div>
+  {% for backdrops in site.data.home-video limit:1 %}
+  <div class="background-image-holder"><img alt="image" src="{{item.image}}" class="editable" /></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="/assets/video/Digital-Twin-Studios-Highlights.mp4" class="editable" type="video/mp4" />
+    <source src="{{item.video}}" class="editable" type="video/mp4">
   </video>
+  {% endfor }
 </section>
 
 <section class="team pb-0">
@@ -189,19 +190,9 @@ pagename: home
          <!-- Slider START -->
          <div class="tiny-slider arrow-hover arrow-gray">
            <div class="tiny-slider-inner" data-arrow="true" data-dots="false" data-autoplay="3800" data-gutter="80" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-sm="3" data-items-xs="2">
-             <div class="item"><img src="/assets/images/clients/colored/800px-Meta_Platforms_Inc._logo.svg.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/ArborXR-Logo-Dark-1.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/DoD-Logo.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/f6e1195509be61411db1ec236a383561.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/Food_and_Drug_Administration_logo.svg.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/freeman-group-logo-600.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/LAEconomicDevelopment_thumb.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/LDH.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/logo-Wic-1.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/PNGPIX-COM-Honeywell-Logo-PNG-Transparent.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/Shell-logo-1.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/university-of-louisiana-at-lafayette-logo.png" alt="" class="editable" /></div>
-             <div class="item"><img src="/assets/images/clients/colored/virgin-hotels.png" alt="" class="editable" /></div>
+             {% for backdrops in site.data.companies %}
+             <div class="item"><img src="{{item.image}}" alt="{{item.name}}"></div>
+             {% endfor %}
            </div>
          </div>
        </div>
