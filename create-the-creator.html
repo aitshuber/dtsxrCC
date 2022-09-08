@@ -44,7 +44,7 @@ Form -->
               <ol></ol>
             </div>
             <div class="col-md-12 px-4 py-4 card">
-         {% capture form_code %}{{ site.data.form }}{% endcapture %}
+         {% capture form_code %}{{ site.data.form.code_block }}{% endcapture %}
                {% if form_code == ""  %}
                <h2>Registration is Closed</h2>
                {% else %}
