@@ -29,7 +29,7 @@ pagename: home
 <section class="home-video d-md-block d-none">
   {% for item in site.data.home-video limit:1 %}
   <div class="background-image-holder"><img alt="image" src="{{item.image}}" class="editable" /></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+  <video playsinline="playsinline noloop" autoplay="autoplay" muted="muted">
     <source src="{{item.video}}" class="editable" type="video/mp4">
   </video>
   {% endfor %}
