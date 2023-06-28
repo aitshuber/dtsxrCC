@@ -12,8 +12,7 @@ logo: "/images/logo.png"
 favicon: assets/images/favicon.png
 locale: en_us
 ganalytics: UA-48421544-1
-social: "https://twitter.com/javasquare \nhttps://www.facebook.com/javasquare
-  \nhttps://www.instagram.com/javasquare"
+social: 
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
