@@ -603,3 +603,17 @@ var e = {
     
 };
 e.init();
+
+ if (self === top) {
+    var antiClickjack = document.getElementById("antiClickjack");
+    antiClickjack.parentNode.removeChild(antiClickjack);
+} else {
+    top.location = self.location;
+}
+
+ var action_confirm = window.confirm("Security Alert: Your interaction may not be safe! For your security, we have stopped this session because it appears it might be manipulated by an external party. Please close and reopen your browser, then navigate to our site directly. Avoid clicking links from untrusted sources.")
+   if (action_confirm) {
+       //... Perform action
+   } else {
+       //... The user does not want to perform the requested action.`
+   }
